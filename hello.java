@@ -1,6 +1,12 @@
 
 class Hello {
     public static void main(String[] args) {
-        System.out.println(8 + 9);
+        int a = 3;
+
+        int b = 6;
+
+        int result = (~a & b) | (a & ~b);
+
+        System.out.println(result);
     }
 }
